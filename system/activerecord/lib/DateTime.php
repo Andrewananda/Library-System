@@ -1,7 +1,9 @@
 <?php
+
 /**
  * @package ActiveRecord
  */
+
 namespace ActiveRecord;
 
 /**
@@ -59,7 +61,8 @@ class DateTime extends \DateTime implements DateTimeInterface
 		'rfc2822' => \DateTime::RFC2822,
 		'rfc3339' => \DateTime::RFC3339,
 		'rss'     => \DateTime::RSS,
-		'w3c'     => \DateTime::W3C);
+		'w3c'     => \DateTime::W3C
+	);
 
 	private $model;
 	private $attribute_name;
@@ -84,7 +87,7 @@ class DateTime extends \DateTime implements DateTimeInterface
 	 * @param string $format A format string accepted by get_format()
 	 * @return string formatted date and time string
 	 */
-	public function format($format=null)
+	public function format($format = null)
 	{
 		return parent::format(self::get_format($format));
 	}
@@ -99,7 +102,7 @@ class DateTime extends \DateTime implements DateTimeInterface
 	 * @param string $format A pre-defined string format or a raw format string
 	 * @return string a format string
 	 */
-	public static function get_format($format=null)
+	public static function get_format($format = null)
 	{
 		// use default format if no format specified
 		if (!$format)
@@ -107,7 +110,7 @@ class DateTime extends \DateTime implements DateTimeInterface
 
 		// format is a friendly
 		if (array_key_exists($format, self::$FORMATS))
-			 return self::$FORMATS[$format];
+			return self::$FORMATS[$format];
 
 		// raw format
 		return $format;
@@ -145,16 +148,16 @@ class DateTime extends \DateTime implements DateTimeInterface
 		return parent::setDate($year, $month, $day);
 	}
 
-	public function setISODate($year, $week , $day = 1)
+	public function setISODate($year, $week, $day = 1)
 	{
 		$this->flag_dirty();
 		return parent::setISODate($year, $week, $day);
 	}
 
-	public function setTime($hour, $minute, $second = 0)
+	public function setTime($hour, $minute, $second = 0, $microseconds = 0)
 	{
 		$this->flag_dirty();
-		return parent::setTime($hour, $minute, $second);
+		return parent::setTime($hour, $minute, $second, $microseconds);
 	}
 
 	public function setTimestamp($unixtimestamp)
@@ -168,13 +171,13 @@ class DateTime extends \DateTime implements DateTimeInterface
 		$this->flag_dirty();
 		return parent::setTimezone($timezone);
 	}
-	
+
 	public function modify($modify)
 	{
 		$this->flag_dirty();
 		return parent::modify($modify);
 	}
-	
+
 	public function add($interval)
 	{
 		$this->flag_dirty();
@@ -186,5 +189,4 @@ class DateTime extends \DateTime implements DateTimeInterface
 		$this->flag_dirty();
 		return parent::sub($interval);
 	}
-
 }
