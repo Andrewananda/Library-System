@@ -7,11 +7,7 @@
 
 <body>
 
-	<?php
-	$test = Test::all();
-	var_dump($test);
 
-	?>
 
 </body>
 
