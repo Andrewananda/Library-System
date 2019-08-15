@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Library extends CI_Controller
 {
 
 	/**
@@ -21,9 +21,11 @@ class Welcome extends CI_Controller
 	 */
 	public function index()
 	{
-		parent::__construct();
-		$this->load->helper('url_helper');
-		$this->load->view('theme/dashboard');
+		//parent::__construct();
+		//$this->load->view('dashboard');
+		//$data['layout'] = 'test';
+		//$this->display('SLS/test', $data);
+		header('location:' . base_url() . 'library/display/dashboard');
 	}
 
 	public function display($view, $data = array())
