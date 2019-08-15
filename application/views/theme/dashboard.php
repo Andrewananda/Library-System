@@ -18,13 +18,13 @@
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="apple-touch-icon" href="<?php echo base_url(); ?>public/assets/img/icon57.png" sizes="57x57">
-    <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
-    <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
-    <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="<?= base_url(); ?>/public/assets/img/icon180.png" sizes="180x180">
     <!-- END Icons -->
 
     <!-- Stylesheets -->
@@ -116,43 +116,43 @@
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-online">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar12.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar12.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-online">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar15.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar15.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-online">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar10.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar10.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-online">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-away">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar7.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar7.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-away">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar9.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar9.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" class="chat-user-busy">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar16.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar16.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
@@ -164,25 +164,25 @@
                             <li>
                                 <a href="javascript:void(0)">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar4.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar3.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar3.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar13.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar13.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">
                                     <span></span>
-                                    <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle">
+                                    <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle">
                                 </a>
                             </li>
                         </ul>
@@ -195,7 +195,7 @@
                                 <button id="chat-talk-close-btn" class="btn btn-xs btn-default pull-right">
                                     <i class="fa fa-times"></i>
                                 </button>
-                                <img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle pull-left">
+                                <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle pull-left">
                                 <strong>John</strong> Doe
                             </div>
                             <!-- END Chat Info -->
@@ -319,46 +319,46 @@
                                 </li>
                                 -->
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-night themed-border-night" data-theme="css/themes/night.css" data-toggle="tooltip" title="Night"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-night themed-border-night" data-theme="<?= base_url(); ?>/public/assets/css/themes/night.css" data-toggle="tooltip" title="Night"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-amethyst themed-border-amethyst" data-theme="css/themes/amethyst.css" data-toggle="tooltip" title="Amethyst"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-amethyst themed-border-amethyst" data-theme="<?= base_url(); ?>/public/assets/css/themes/amethyst.css" data-toggle="tooltip" title="Amethyst"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-modern themed-border-modern" data-theme="css/themes/modern.css" data-toggle="tooltip" title="Modern"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-modern themed-border-modern" data-theme="<?= base_url(); ?>/public/assets/css/themes/modern.css" data-toggle="tooltip" title="Modern"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-autumn themed-border-autumn" data-theme="css/themes/autumn.css" data-toggle="tooltip" title="Autumn"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-autumn themed-border-autumn" data-theme="<?= base_url(); ?>/public/assets/css/themes/autumn.css" data-toggle="tooltip" title="Autumn"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-flatie themed-border-flatie" data-theme="css/themes/flatie.css" data-toggle="tooltip" title="Flatie"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-flatie themed-border-flatie" data-theme="<?= base_url(); ?>/public/assets/css/themes/flatie.css" data-toggle="tooltip" title="Flatie"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-spring themed-border-spring" data-theme="css/themes/spring.css" data-toggle="tooltip" title="Spring"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-spring themed-border-spring" data-theme="<?= base_url(); ?>/public/assets/css/themes/spring.css" data-toggle="tooltip" title="Spring"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-fancy themed-border-fancy" data-theme="css/themes/fancy.css" data-toggle="tooltip" title="Fancy"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-fancy themed-border-fancy" data-theme="<?= base_url(); ?>/public/assets/css/themes/fancy.css" data-toggle="tooltip" title="Fancy"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-fire themed-border-fire" data-theme="css/themes/fire.css" data-toggle="tooltip" title="Fire"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-fire themed-border-fire" data-theme="<?= base_url(); ?>/public/assets/css/themes/fire.css" data-toggle="tooltip" title="Fire"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-coral themed-border-coral" data-theme="css/themes/coral.css" data-toggle="tooltip" title="Coral"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-coral themed-border-coral" data-theme="<?= base_url(); ?>/public/assets/css/themes/coral.css" data-toggle="tooltip" title="Coral"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-lake themed-border-lake" data-theme="css/themes/lake.css" data-toggle="tooltip" title="Lake"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-lake themed-border-lake" data-theme="<?= base_url(); ?>/public/assets/css/themes/lake.css" data-toggle="tooltip" title="Lake"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-forest themed-border-forest" data-theme="css/themes/forest.css" data-toggle="tooltip" title="Forest"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-forest themed-border-forest" data-theme="<?= base_url(); ?>/public/assets/css/themes/forest.css" data-toggle="tooltip" title="Forest"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-waterlily themed-border-waterlily" data-theme="css/themes/waterlily.css" data-toggle="tooltip" title="Waterlily"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-waterlily themed-border-waterlily" data-theme="<?= base_url(); ?>/public/assets/css/themes/waterlily.css" data-toggle="tooltip" title="Waterlily"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-emerald themed-border-emerald" data-theme="css/themes/emerald.css" data-toggle="tooltip" title="Emerald"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-emerald themed-border-emerald" data-theme="<?= base_url(); ?>/public/assets/css/themes/emerald.css" data-toggle="tooltip" title="Emerald"></a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" class="themed-background-dark-blackberry themed-border-blackberry" data-theme="css/themes/blackberry.css" data-toggle="tooltip" title="Blackberry"></a>
+                                <a href="javascript:void(0)" class="themed-background-dark-blackberry themed-border-blackberry" data-theme="<?= base_url(); ?>/public/assets/css/themes/blackberry.css" data-toggle="tooltip" title="Blackberry"></a>
                             </li>
                         </ul>
                         <!-- END Theme Colors -->
@@ -833,7 +833,7 @@
                         <!-- User Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
+                                <img src="<?= base_url(); ?>/public/assets/img/placeholders/avatars/avatar2.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
                                 <li class="dropdown-header text-center">Account</li>
@@ -948,7 +948,7 @@
                             </div>
                         </div>
                         <!-- For best results use an image with a resolution of 2560x248 pixels (You can also use a blurred image with ratio 10:1 - eg: 1000x100 pixels - it will adjust and look great!) -->
-                        <img src="img/placeholders/headers/dashboard_header.jpg" alt="header image" class="animation-pulseSlow">
+                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/headers/dashboard_header.jpg" alt="header image" class="animation-pulseSlow">
                     </div>
                     <!-- END Dashboard Header -->
 
@@ -1085,13 +1085,13 @@
                                                     <p class="push-bit"><a href="page_ready_article.html" class="btn btn-xs btn-primary"><i class="fa fa-file"></i> Read the article</a></p>
                                                     <div class="row push">
                                                         <div class="col-sm-6 col-md-4">
-                                                            <a href="img/placeholders/photos/photo1.jpg" data-toggle="lightbox-image">
-                                                                <img src="img/placeholders/photos/photo1.jpg" alt="image">
+                                                            <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo1.jpg" data-toggle="lightbox-image">
+                                                                <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo1.jpg" alt="image">
                                                             </a>
                                                         </div>
                                                         <div class="col-sm-6 col-md-4">
-                                                            <a href="img/placeholders/photos/photo22.jpg" data-toggle="lightbox-image">
-                                                                <img src="img/placeholders/photos/photo22.jpg" alt="image">
+                                                            <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo22.jpg" data-toggle="lightbox-image">
+                                                                <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo22.jpg" alt="image">
                                                             </a>
                                                         </div>
                                                     </div>
@@ -1122,8 +1122,8 @@
                                                     <p class="push-bit">Today I had the lunch of my life! It was delicious!</p>
                                                     <div class="row push">
                                                         <div class="col-sm-6 col-md-4">
-                                                            <a href="img/placeholders/photos/photo23.jpg" data-toggle="lightbox-image">
-                                                                <img src="img/placeholders/photos/photo23.jpg" alt="image">
+                                                            <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo23.jpg" data-toggle="lightbox-image">
+                                                                <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo23.jpg" alt="image">
                                                             </a>
                                                         </div>
                                                     </div>
@@ -1241,7 +1241,7 @@
                                     <!-- Widget Header -->
                                     <div class="widget-header text-left">
                                         <!-- For best results use an image with at least 150 pixels in height (with the width relative to how big your widget will be!) - Here I'm using a 1200x150 pixels image -->
-                                        <img src="img/placeholders/headers/widget5_header.jpg" alt="background" class="widget-background animation-pulseSlow">
+                                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/headers/widget5_header.jpg" alt="background" class="widget-background animation-pulseSlow">
                                         <h3 class="widget-content widget-content-image widget-content-light clearfix">
                                             <span class="widget-icon pull-right">
                                                 <i class="fa fa-sun-o animation-pulse"></i>
@@ -1306,23 +1306,23 @@
                                         <div class="gallery gallery-widget" data-toggle="lightbox-gallery">
                                             <div class="row">
                                                 <div class="col-xs-6 col-sm-3">
-                                                    <a href="img/placeholders/photos/photo15.jpg" class="gallery-link" title="Image Info">
-                                                        <img src="img/placeholders/photos/photo15.jpg" alt="image">
+                                                    <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo15.jpg" class="gallery-link" title="Image Info">
+                                                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo15.jpg" alt="image">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-3">
-                                                    <a href="img/placeholders/photos/photo5.jpg" class="gallery-link" title="Image Info">
-                                                        <img src="img/placeholders/photos/photo5.jpg" alt="image">
+                                                    <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo5.jpg" class="gallery-link" title="Image Info">
+                                                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo5.jpg" alt="image">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-3">
-                                                    <a href="img/placeholders/photos/photo6.jpg" class="gallery-link" title="Image Info">
-                                                        <img src="img/placeholders/photos/photo6.jpg" alt="image">
+                                                    <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo6.jpg" class="gallery-link" title="Image Info">
+                                                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo6.jpg" alt="image">
                                                     </a>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-3">
-                                                    <a href="img/placeholders/photos/photo13.jpg" class="gallery-link" title="Image Info">
-                                                        <img src="img/placeholders/photos/photo13.jpg" alt="image">
+                                                    <a href="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo13.jpg" class="gallery-link" title="Image Info">
+                                                        <img src="<?= base_url(); ?>/public/assets/img/placeholders/photos/photo13.jpg" alt="image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -1433,10 +1433,10 @@
     <!-- Google Maps API Key (you will have to obtain a Google Maps API key to use Google Maps) -->
     <!-- For more info please have a look at https://developers.google.com/maps/documentation/javascript/get-api-key#key -->
     <script src="https://maps.googleapis.com/maps/api/js?key="></script>
-    <script src="js/helpers/gmaps.min.js"></script>
+    <script src="<?= base_url(); ?>/public/assets/js/helpers/gmaps.min.js"></script>
 
     <!-- Load and execute javascript code used only in this page -->
-    <script src="js/pages/index.js"></script>
+    <script src="<?= base_url(); ?>/public/assets/js/pages/index.js"></script>
     <script>
         $(function() {
             Index.init();
