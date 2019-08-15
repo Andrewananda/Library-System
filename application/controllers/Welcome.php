@@ -25,4 +25,14 @@ class Welcome extends CI_Controller
 		$this->load->helper('url_helper');
 		$this->load->view('theme/dashboard');
 	}
+
+	public function display($view, $data = array())
+	{
+		$data_layout['content'] = $this->load->view($view, $data, true);
+		$layout = isset($data['layout']) ? $data['layout'] : 'dashboard';
+		$data_layout['sidebar'] = $this->section('sidebar', [], TRUE);
+		$data_layout['header'] = $this->section('header', [], TRUE);
+		$data_layout['footer'] = $this->section('footer', [], TRUE);
+		$this->load->view('theme/' . $layout, $data_layout);
+	}
 }
