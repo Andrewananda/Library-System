@@ -30,11 +30,19 @@ class Library extends CI_Controller
 
 	public function display($view, $data = array())
 	{
-		$data_layout['content'] = $this->load->view($view, $data, true);
+		//$data_layout['content'] = $this->load->view($view, $data, true);
 		$layout = isset($data['layout']) ? $data['layout'] : 'dashboard';
-		$data_layout['sidebar'] = $this->section('sidebar', [], TRUE);
-		$data_layout['header'] = $this->section('header', [], TRUE);
-		$data_layout['footer'] = $this->section('footer', [], TRUE);
-		$this->load->view('theme/' . $layout, $data_layout);
+		$this->load->view('theme/sections/header');
+		$this->load->view('theme/sections/sidebar');
+		$this->load->view('theme/sections/footer');
+		$this->load->view('theme/' . $layout);
+	}
+
+	public function show()
+	{
+		$this->load->view('theme/sections/header');
+		$this->load->view('theme/sections/sidebar');
+		$this->load->view('SLS/test');
+		$this->load->view('theme/sections/footer');
 	}
 }
