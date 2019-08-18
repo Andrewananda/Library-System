@@ -1,5 +1,5 @@
 <div id="main-container">
-    <?php
-    echo "test view";
-    ?>
+    <div id="page-content">
+        <p>Test conetent</p>
+    </div>
 </div>
