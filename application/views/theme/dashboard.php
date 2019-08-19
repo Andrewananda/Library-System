@@ -1,7 +1,7 @@
 <?php include 'sections/sidebar.php'; ?>
-
 <div id="main-container">
     <div id="page-content">
+
         <div class="row">
             <div class="col-sm-6 col-lg-3">
                 <!-- Widget -->
@@ -105,6 +105,7 @@
         <!-- END Mini Top Stats Row -->
     </div>
     <!-- END Page Content -->
+
 
     <!-- Footer -->
     <footer class="clearfix">

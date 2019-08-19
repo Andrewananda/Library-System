@@ -28,11 +28,10 @@ class Library extends CI_Controller
 		header('location:' . base_url() . 'library/display/dashboard');
 	}
 
-	public function display($view, $data = array())
+	public function display($data = array())
 	{
 		//$data_layout['content'] = $this->load->view($view, $data, true);
 		$layout = isset($data['layout']) ? $data['layout'] : 'dashboard';
-		$this->load->view('theme/sections/header');
 		$this->load->view('theme/sections/sidebar');
 		$this->load->view('theme/sections/footer');
 		$this->load->view('theme/' . $layout);
@@ -40,7 +39,6 @@ class Library extends CI_Controller
 
 	public function show()
 	{
-		$this->load->view('theme/sections/header');
 		$this->load->view('theme/sections/sidebar');
 		$this->load->view('SLS/test');
 		$this->load->view('theme/sections/footer');
